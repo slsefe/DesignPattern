@@ -1,4 +1,4 @@
-package observer;
+package observer.demo;
 
 /**
  * 主题接口
@@ -17,5 +17,5 @@ public interface Subject {
     /**
      * 当主题状态改变时，该方法会被调用，以通知所有观察者
      */
-    void notifyObservers();
+    void notifyObservers(Message message);
 }
